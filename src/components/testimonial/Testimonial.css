@@ -1,0 +1,72 @@
+.testimonial {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.testimonial-test {
+  display: flex;
+  flex-direction: column;
+  gap: 2.2rem;
+  padding: 1.6rem;
+  text-transform: uppercase;
+}
+.testimonial-test span:nth-child(1) {
+  font-size: 2.2rem;
+  font-weight: 500;
+  color: var(--orange);
+}
+.testimonial-test span:nth-child(2),
+.testimonial-test span:nth-child(3) {
+  font-size: 5.2rem;
+  font-weight: 700;
+  color: #fff;
+}
+.testimonial-test span:nth-child(3) {
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+}
+.testimonial-test span:nth-child(4) {
+  font-size: 1.6rem;
+  color: #fff;
+}
+.testimonial-test span:nth-child(5) {
+  font-size: 1.4rem;
+}
+.right-h {
+  position: relative;
+}
+.right-h > img {
+  width: 20rem;
+  height: 22rem;
+  object-fit: cover;
+  position: absolute;
+  right: 18rem;
+  top: 2rem;
+}
+.right-h > :nth-child(1) {
+  border: 2px solid var(--orange);
+  width: 20rem;
+  height: 22rem;
+  position: absolute;
+  right: 20rem;
+  top: 0.7rem;
+}
+.right-h > :nth-child(2) {
+  width: 20rem;
+  height: 22rem;
+  background: var(--orange);
+  position: absolute;
+  right: 16rem;
+  top: 4rem;
+}
+.arrow {
+  display: flex;
+  gap: 1rem;
+  position: absolute;
+  bottom: 2rem;
+  left: 16rem;
+}
+.arrow img {
+  width: 4rem;
+  cursor: pointer;
+}

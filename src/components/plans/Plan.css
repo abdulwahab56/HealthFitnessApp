@@ -1,0 +1,73 @@
+.plans {
+  /* background: var(--darkgray); */
+  width: fit-content;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 2rem;
+  margin: 7rem auto;
+}
+
+.plan_detail {
+  padding: 2rem 1.5rem;
+  background: var(--lightgray);
+  /* width: 65%; */
+}
+.plan_icon {
+  width: 34px;
+  height: 34px;
+  color: var(--orange);
+  margin-bottom: 2rem;
+}
+.plan_detail > :nth-child(2) {
+  font-size: 2.2rem;
+  margin-bottom: 3rem;
+  color: #fff;
+  font-weight: 500;
+}
+.plan_detail > :nth-child(3) {
+  font-size: 3.5rem;
+  margin-bottom: 3rem;
+  color: #fff;
+  font-weight: 700;
+}
+.plan_detail > div {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+  margin-bottom: 2rem;
+}
+.plan_detail > div img {
+  width: 24px;
+  height: 24px;
+}
+.plan_detail > div span {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #fff;
+}
+.plan_detail > div a {
+  font-size: 1.2rem;
+}
+.btn-primary {
+  padding: 1rem 6rem;
+  font-size: 1.5rem;
+  position: relative;
+  right: -30px;
+}
+.perium_plan {
+  background: var(--orange);
+  transform: translateY(-12px);
+}
+.perium_plan .plan_icon {
+  color: #fff;
+  width: 44px;
+  height: 44px;
+  margin-bottom: 3rem;
+}
+.perium_plan > :nth-child(2) {
+  font-size: 2.4rem;
+}
+.perium_plan > :nth-child(3) {
+  font-size: 4rem;
+}

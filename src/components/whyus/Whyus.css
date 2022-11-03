@@ -1,0 +1,61 @@
+.whyus {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  text-transform: uppercase;
+}
+.whyus_img {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1.6rem;
+}
+.imag_tarin {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.4rem;
+}
+.imag1 {
+  width: 21.5rem;
+}
+.whyus_title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--orange);
+  margin-bottom: 6rem;
+}
+h1 {
+  font-size: 4.4rem;
+  margin: 3rem 0;
+  color: #fff;
+}
+.whyus_list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+.tick_img {
+  width: 24px;
+  height: 24px;
+}
+li {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-size: 1.6rem;
+  color: #fff;
+  font-weight: 700;
+}
+
+.partner {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #fff;
+}
+.partners_imag {
+  display: flex;
+  gap: 2rem;
+  background: var(--lightgray);
+  margin-top: 2rem;
+}

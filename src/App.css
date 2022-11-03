@@ -1,0 +1,26 @@
+/* =================General Css================= */
+.section {
+  margin: 8rem 5rem;
+  /* background: var(--lightgray); */
+}
+a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #fff;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+.btn {
+  font-size: 1.8rem;
+  font-weight: 600;
+  background: #fff;
+  color: var(--lightgray);
+  border: none;
+}
+.blur {
+  background: rgb(253, 120, 43, 0.69);
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(150px);
+  z-index: -9;
+}

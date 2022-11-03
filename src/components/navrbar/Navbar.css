@@ -1,0 +1,31 @@
+.navbar_logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo_img {
+  padding: 2rem;
+  padding-top: 1rem;
+  width: 25rem;
+}
+.navbar_list {
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+}
+.navbar_list a:hover {
+  color: var(--orange);
+}
+@media screen and (max-width: 768px) {
+  .navbar_logo > :nth-child(2) {
+    position: fixed;
+    right: 2rem;
+    z-index: 99;
+    top: 2rem;
+  }
+  .navbar_list {
+    flex-direction: column;
+    padding: 2rem;
+    background: var(--lightgray);
+  }
+}

@@ -1,0 +1,43 @@
+.email_section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.left_text span:nth-child(1) {
+  font-size: 5.4rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #fff;
+}
+.line {
+  text-decoration: overline var(--orange);
+}
+.right_text {
+  position: relative;
+}
+form {
+  display: flex;
+  gap: 3rem;
+  background: var(--lightgray);
+  padding: 2rem 3rem;
+  width: 35rem;
+  justify-content: center;
+  position: absolute;
+  top: 5rem;
+  right: 17rem;
+}
+.input {
+  border: none;
+  background: transparent;
+  outline: none;
+  width: 16rem;
+  height: 3rem;
+  background: var(--lightgray);
+  color: #fff;
+}
+.btn_j {
+  padding: 0.5rem;
+  color: #fff;
+  background: var(--orange);
+}
